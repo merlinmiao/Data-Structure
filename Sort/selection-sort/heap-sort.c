@@ -16,9 +16,6 @@ int main() {
 }
 
 
-
-
-
 //堆化操作：从上至下，将小数据上浮，大数据下沉，构建小根堆
 
 void MinHeap(int *p, int i,int n){
