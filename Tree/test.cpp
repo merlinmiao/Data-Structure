@@ -36,7 +36,7 @@ void Print(binary_tree_node* p)
 {  
 	if (NULL == p)  
 		return;  
-	cout << p->data;  
+	cout << p->data << ' ';  
 	Print(p->left_child);  
 	Print(p->right_child);  
 }  
